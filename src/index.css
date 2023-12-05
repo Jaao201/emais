@@ -1,0 +1,95 @@
+/*TODAS AS PÁGINAS > ESTILO*/
+
+@font-face {
+	font-family: Metropolis;
+	src: url('/src/fonts/Metropolis-Medium.otf');
+}
+
+* {
+	/*reset de todas as configurações*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Metropolis;
+}
+
+a {
+	/*todos os links*/
+	text-decoration: none;
+}
+
+/*CORPO*/
+.container {
+	margin: 20px;
+	z-index: 1;
+	position: relative;
+	border-radius: 20px;
+	padding: 20px;
+	top: 80px;
+	box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.1);
+	/* min-height: 500px; */
+	background-color: #ffffff;
+	background-image: url(../src/images/logo-fundo-1.png);
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+/*SEÇÃO DO TÍTULO*/
+.titulo {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.titulo button,
+.btn-cadastrar button {
+	display: flex;
+	margin: 0px 20px 0px 20px;
+	padding: 10px 20px 10px 20px;
+	background-color: #0095ba;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	color: #ffffff;
+	align-items: center;
+}
+
+.titulo button:hover,
+.btn-cadastrar button:hover {
+	background-color: #006882;
+}
+
+.titulo img#icone-pagina {
+	height: 30px;
+	padding: 0px 20px 0px 20px;
+}
+
+.titulo img#icone-lista,
+.btn-cadastrar img {
+	height: 20px;
+	padding-right: 20px;
+}
+
+.btn-cadastrar {
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	color: #0095ba;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+	appearance: textfield;
+
+}

@@ -1,0 +1,122 @@
+/* dados de cadastro */
+#tituloCadastro{
+    padding: 4px;
+    margin-top: 16px;
+    color: white;
+    background-color: #007596;
+    font-size: 24px;
+	text-align: center;
+}
+.bloco1{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: left;
+    align-items: left;
+}
+.bloco1 section{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 30px;
+}
+
+#status{
+    width: 250px;
+}
+
+label{
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+/* dados pessoas */
+
+
+.bloco2{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: left;
+    align-items: center;
+}
+
+.bloco2 section{
+    display: flex;
+    flex-direction: column;
+}
+
+#nome{
+    width: 500px;
+}
+#nomesocial{
+    width: 350px;
+}
+
+/* Logradouro */
+
+
+
+.bloco3{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: left;
+    align-items: center;
+}
+
+.bloco3 section{
+    display: flex;
+    flex-direction: column;
+}
+
+#rua{
+    width: 300px;
+}
+#complemento{
+    width: 250px;
+}
+#n{
+    width: 100px;
+}
+#cep{
+    width: 100px;
+}
+
+
+/* Botão de cadastrar */
+
+
+.botaoSalvar{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botaoSalvar button{
+    background-color: #0095bf;
+    border: none;
+    color: white;
+
+
+    padding: 16px;
+    border-radius: 10px;
+    width: 300px;
+    font-size: 24px;
+}
+.botaoSalvar button:hover{
+    background-color: #007596;
+    cursor: pointer;
+}
+
+/* outro bt */
+
+.btn-cadastrar{
+	margin-top: 32px;
+}

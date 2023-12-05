@@ -1,0 +1,180 @@
+@import url('../../../components/formularios/formularios.css');
+
+/*NEGÓCIOS > CADASTRO > ESTILO*/
+body{
+    width: 100%;
+}
+.titulo{
+    text-align: center;
+    margin-top: 16px;
+}
+
+/* label{
+    position:relative;
+    margin-top: -20px;
+   
+} */
+
+
+/* retirar setas do input NUMBER */
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+.formulario-empreedimento{
+    margin: 20px;
+    border: 1px solid;
+    display: grid;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('../../../images/logo-em-azul.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-color: white;
+    border-radius: 10px;
+}
+
+.formulario-empreedimento label{
+    font-weight: 700;
+}
+
+.formulario-empreedimento section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.primeiros-inputs{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+#razao{
+    width: 500px;
+    
+}
+
+.bloc2{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding: 20px;
+}
+.bloc2 input{
+    height: 30px;
+}
+
+
+.bloc3{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    /* margin-top: 20px; */
+    padding: 20px;
+}
+
+.bloc3 input{
+    height: 30px;
+}
+
+.bloc4{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    /* margin-top: 20px; */
+    padding: 20px;
+}
+.bloc4 select{
+    height: 30px;
+}
+
+
+
+.primeiros-inputs input{
+    width: 450px;
+    height: 30px;
+    
+}
+
+
+
+.segunda-part{
+    padding: 20px;
+}
+
+.segunda-part input{
+    height: 30px;
+}
+
+#telefone, #whats{
+    width: 130px;
+}
+
+
+#nscricaoMu{
+    width: 100px;
+}
+
+#cnpj{
+    width: 120px;
+}
+
+#inscricaoEs{
+    width: 90px;
+}
+
+#nameEmpresario{
+    height: 30px;
+    width: 450px;
+}
+
+#cpnj{
+    height: 30px;
+}
+
+.terceira-part{
+    padding: 20px;
+}
+
+
+
+.ultima-part{
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+.ultima-part select{
+    height: 30px;
+}
+
+
+.buttonCadas{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonCadas button{
+    width: 400px;
+    height: 40px;
+    background-color: #0095bf;
+    color: white;
+    border: none;
+    font-weight: 600;
+
+    border-radius: 10px;
+}

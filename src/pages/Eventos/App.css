@@ -1,0 +1,56 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(241, 241, 241);
+}
+.lista-empreendedores{
+  border: 1px solid;
+  margin-top: 25px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.lista-empreendedores table{
+  padding: 16px;
+  border-collapse: collapse;
+  margin: 32px;
+}
+
+.lista-empreendedores table td{
+  
+  border: 1px solid black;
+  padding: 16px;
+  
+}
+.lista-empreendedores table th{
+  border: 1px solid black;
+  padding: 16px;
+  background-color: #0095bf;
+  color: white;
+  padding: 8px;
+}
+
+
+.container h1{
+  text-align: center;
+}
+
+.cabecalho{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.cabecalho button{
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  background-color: #0095bf;
+  color: white;
+}
+
+
+#btEmpre{
+  cursor: pointer;
+}
