@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: Metropolis;
-	src: url('/src/fonts/Metropolis-Medium.otf');
+	src: url("/src/fonts/pfBeauSansPro.ttf");
 }
 
 * {
@@ -83,13 +83,11 @@ h1 {
 	color: #0095ba;
 }
 
-input[type=number]::-webkit-inner-spin-button {
+input[type="number"]::-webkit-inner-spin-button {
 	-webkit-appearance: none;
-
 }
 
-input[type=number] {
+input[type="number"] {
 	-moz-appearance: textfield;
 	appearance: textfield;
-
 }
