@@ -1,61 +1,59 @@
 /*CABEÇALHO > ESTILO*/
-header{
-    background-color: #0095ba;
-    box-shadow: #006882 0px 3px 0px 0px;
-    height: 80px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 17px;
-    letter-spacing: 0.5px;
-    position: fixed;
-    top: 0px;
-    z-index: +2;
+header {
+	width: 100vw;
+	height: 5rem;
+	background-color: #0095ba;
+	box-shadow: #006882 0px 3px 0px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 17px;
+	letter-spacing: 0.5px;
+	position: fixed;
+	top: 0px;
+	z-index: +2;
 }
 
 a {
-    color: #ffffff;
+	color: #ffffff;
 }
 
-
-
 header ul {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    list-style: none;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    font-size: 12pt;
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	list-style: none;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	font-size: 12pt;
 }
 
 li {
-    display: flex; 
-    flex-direction: column;  
-    justify-content: center;
-    width: 120px; height: 60px;
-    align-items: center;
-    text-align: center;
-    padding: 5px;
-    font-weight: 300;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 120px;
+	height: 60px;
+	align-items: center;
+	text-align: center;
+	padding: 5px;
+	font-weight: 300;
 }
 li img:not(.logoEM) {
-    height: 30px;
+	height: 30px;
 }
 
-li:not(.logoEM):hover{
-   
-    color: #8be8ff;
-    transform: scale(1.05);
+li:not(.logoEM):hover {
+	color: #8be8ff;
+	transform: scale(1.05);
 }
 
 #logoEM {
-    height: 40px;
-    transition:  0.03s;
+	height: 40px;
+	transition: 0.03s;
 }
 
 #logoEM:hover {
-    transform: scale(1.05);
+	transform: scale(1.05);
 }
