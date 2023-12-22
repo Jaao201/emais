@@ -9,6 +9,7 @@ import { AppRoutes } from "./Routes/index.jsx";
 
 import { Header } from "./components/header/header.jsx";
 import { Footer } from "./components/footer/footer.jsx";
+import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>

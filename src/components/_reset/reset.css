@@ -2,12 +2,14 @@
 	font-size: 62.5%;
 	scroll-behavior: smooth;
 }
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: PF Beau;
 }
+
 ul li {
 	list-style: none;
 }

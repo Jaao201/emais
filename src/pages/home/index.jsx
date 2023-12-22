@@ -1,10 +1,9 @@
 //INÍCIO > PÁGINA
-import { List } from "../../components/listas";
 
 export function Home() {
 	return (
 		<div className="container">
-			<h1>Test</h1>
+			<h1>Home page</h1>
 		</div>
 	);
 }

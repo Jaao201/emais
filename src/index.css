@@ -1,7 +1,7 @@
 /*TODAS AS PÁGINAS > ESTILO*/
 
 @font-face {
-	font-family: Metropolis;
+	font-family: PF Beau;
 	src: url("/src/fonts/pfBeauSansPro.ttf");
 }
 
@@ -10,7 +10,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Metropolis;
+	font-family: PF Beau;
 }
 
 a {
