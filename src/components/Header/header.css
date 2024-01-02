@@ -66,8 +66,9 @@
 	justify-content: start;
 	padding: 1rem;
 	gap: 1rem;
-	overflow-x: auto;
-	scrollbar-width: none;
+	cursor: grab;
+	overflow: auto;
+	scrollbar-width: auto;
 	scroll-snap-type: x mandatory;
 }
 
@@ -87,9 +88,14 @@
 }
 
 .divMenu2 a.active {
-	color: red;
+	
+	text-shadow: rgba(0, 0, 0, .4) 1px 1px;
+	border: 2px solid;
+	border-color: #ffd000;
+	display: flex;
+	align-content: center;
 }
-.divMenu2 li:hover {
+.divMenu2 a:hover {
 	filter: brightness(1.1);
 }
 .divMenu2 img {

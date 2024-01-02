@@ -30,6 +30,7 @@ export function Header() {
 				</div>
 				{/* <a onClick={showHideMenu()}>Menu</a> */}
 				<div className="divMenu2">
+					<NavLink to="/">Início</NavLink>
 					<NavLink to="/pessoas">
 						Pessoas
 						<img src="/src/images/icons/menu/icon-pessoas.png" alt="" />
