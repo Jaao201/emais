@@ -66,9 +66,8 @@
 	justify-content: start;
 	padding: 1rem;
 	gap: 1rem;
-	cursor: grab;
-	overflow: auto;
-	scrollbar-width: auto;
+	overflow-x: auto;
+	overflow-y: hidden;
 	scroll-snap-type: x mandatory;
 }
 
@@ -88,11 +87,16 @@
 }
 
 .divMenu2 a.active {
+<<<<<<< HEAD:src/components/Header/index.css
 	border: 1px solid;
 	border-color: #ffd000;
 	display: flex;
 	align-content: center;
 	filter: brightness(1.1);
+=======
+	background-color: #ffd000;
+	color: black;
+>>>>>>> e28f18b23dbc0c9d0551ebdc954b92c85dab2e47:src/components/Header/header.css
 }
 .divMenu2 a:hover {
 	filter: brightness(1.1);
