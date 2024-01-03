@@ -1,0 +1,89 @@
+/*PESSOAS > LISTAGEM > ESTILO*/
+.opcoes-filtro {
+  position: relative;
+  display: none;
+}
+.btn-filtrar:hover .opcoes-filtro{
+  display: flex; z-index: 1;
+  width: 200px;
+}
+.pessoa-bloco1 {
+  display: flex; flex-direction: row;
+  justify-content: center;
+}
+.pessoa-bloco1 img {
+  width: 200px;
+  display: flex; flex-direction: row;
+  justify-content: center;
+}
+.btn-pesquisar {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.btn-filtrar {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.btn-pesquisar, .btn-filtrar {
+  background-color: #0095ba;
+  border: none;
+  padding: 0px 10px 0px 10px;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+}
+.btn-pesquisar:hover, .btn-filtrar:hover{
+  background-color: #006882;
+  cursor: pointer;
+}
+.btn-pesquisar img, .btn-filtrar img {
+  width: 30px; padding:0px 5px 0px 5px;
+}
+.barra-pesquisa {
+  width: 50%;
+  height: 40px;
+  border: #d8d8d8 2px 0px 2px 0px solid;
+}
+.pessoa-bloco2 {
+  display: flex; flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+/*
+#btPessoas{
+  cursor: pointer;
+}
+
+#email{
+  width: 200px;
+}
+
+#cpf{
+  width: 150px;
+  margin-left: 20px;
+}
+
+#rg{
+  width: 150px;
+}
+
+#escolaridade{
+  width: 200px;
+}
+
+#renda{
+  width: 200px;
+}
+
+#telefone{
+  width: 150px;
+}
+
+#btPessoas{
+  cursor: pointer;
+}
+
+.containerPessoas h1{
+  text-align: center;
+  margin-top: 30px;
+}

@@ -8,7 +8,8 @@ import { CadPessoas } from "../pages/pessoas/cadastro/pessoasCad";
 import { ImpProto } from "../pages/protocolos/folha-protocolo/protocoloImp";
 import { CadProtocolo } from "../pages/protocolos/protocoloCad";
 
-import { Atendimento } from "../pages/atendimentos/index";
+import { Atendimento } from "../pages/atendimentos/index.jsx";
+import { Agendamentos } from "../pages/agendamentos/index.jsx";
 import { Eventos } from "../pages/Eventos/App";
 import { CadastroEvento } from "../pages/Eventos/Cadastro-eventos";
 import { Cursos } from "../pages/cursos";
@@ -21,8 +22,9 @@ export function AppRoutes() {
 		<>
 			<Routes>
 				<Route path={"/"} element={<Home />}></Route>
-				<Route path={"/negocios"} element={<Negocios />}></Route>
 				<Route path={"/pessoas"} element={<Pessoas />}></Route>
+				<Route path={"/agendamentos"} element={<Agendamentos />}></Route>
+				<Route path={"/negocios"} element={<Negocios />}></Route>
 				<Route path={"/cadastro-negocios"} element={<CadNegocios />}></Route>
 				<Route path={"/cadastro-pessoas"} element={<CadPessoas />} />
 				<Route path={"/protocolos"} element={<CadProtocolo />} />

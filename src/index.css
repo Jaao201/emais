@@ -5,36 +5,13 @@
 	src: url("/src/fonts/pfBeauSansPro.ttf");
 }
 
-* {
-	/*reset de todas as configurações*/
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: PF Beau;
-}
-
 a {
 	/*todos os links*/
 	text-decoration: none;
 }
 
 /*CORPO*/
-.container {
-	margin: 20px;
-	z-index: 1;
-	position: relative;
-	border-radius: 20px;
-	padding: 20px;
-	top: 80px;
-	box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.1);
-	/* min-height: 500px; */
-	background-color: #ffffff;
-	background-image: url(../src/images/logo-fundo-1.png);
-	background-size: 50%;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 500px;
-}
+
 
 /*SEÇÃO DO TÍTULO*/
 .titulo {

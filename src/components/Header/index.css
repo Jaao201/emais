@@ -88,12 +88,11 @@
 }
 
 .divMenu2 a.active {
-	
-	text-shadow: rgba(0, 0, 0, .4) 1px 1px;
-	border: 2px solid;
+	border: 1px solid;
 	border-color: #ffd000;
 	display: flex;
 	align-content: center;
+	filter: brightness(1.1);
 }
 .divMenu2 a:hover {
 	filter: brightness(1.1);

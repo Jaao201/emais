@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import "./header.css";
+import "./index.css";
 import "../_reset/reset.css";
 import EmaisLogo from "../../images/logos/logo-emais-white.png";
 
@@ -30,7 +30,10 @@ export function Header() {
 				</div>
 				{/* <a onClick={showHideMenu()}>Menu</a> */}
 				<div className="divMenu2">
-					<NavLink to="/">Início</NavLink>
+					<NavLink to="/agendamentos">
+						Agendamentos
+						<img src="/src/images/icons/menu/icon-pessoas.png" alt="" />
+					</NavLink>
 					<NavLink to="/pessoas">
 						Pessoas
 						<img src="/src/images/icons/menu/icon-pessoas.png" alt="" />
