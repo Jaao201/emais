@@ -1,4 +1,4 @@
-/* AGENDAMENTOS () */
+/* AGENDAMENTOS */
 
 import { Link, NavLink } from "react-router-dom";
 import "./index.css";
@@ -11,66 +11,27 @@ export function Agendamentos() {
 		<div className="container">
 			<form className="form" action="" method="POST">
 				<Tabs defaultActiveKey="1" id="tabs" type="line">
-					<TabPane className="abas" tab="" key={1}>
+					<TabPane className="abas" tab="Cadastrar" key={1}>
 						<div className="bloco1">
 							<section>
-								<label htmlFor="date">Data de cadastro:</label>
-								<Input type="date" name="date" id="date" />
-							</section>
-
-							<section>
-								<label htmlFor="date">Agente responsável:</label>
+								<label htmlFor="motivoAgendamento">Agendar:</label>
 								<Select
-									defaultValue="Selecione"
+									defaultValue={"Selecione"}
 									required
-									style={{ width: 270 }}
+									style={{ width: 250 }}
 									options={[
-										{
-											value: "fundamental-incompleto",
-											label: "Luana Ferreira",
-										},
-										{ value: "fundamental-completo", label: "Jorge Alysson" },
+										{ value: "Sim", label: "Atendimento com contador (a)" },
+										{ value: "Não", label: "Visita de acompanhamento" },
 									]}
-								/>
-							</section>
-							<section>
-								<label htmlFor="date">
-									Essa pessoa faz parte do Empreenda Mais?
-								</label>
-								<Select
-									defaultValue="Selecione"
-									required
-									style={{ width: 270 }}
-									options={[
-										{ value: "Sim", label: "Sim" },
-										{ value: "Não", label: "Não" },
-									]}
-								/>
-							</section>
-						</div>
-						<div className="btn-cadastrar">
-							<Button shape="round">Salvar cadastro</Button>
-						</div>
-					</TabPane>
-					<TabPane className="abas" tab="Dados pessoais" key={2}>
-						<div className="bloco2">
-							<section>
-								<label htmlFor="nome">Nome completo: *</label>
-								<Input
-									type="text"
-									name=""
-									id="nome"
-									placeholder="Nome completo..."
-									required
 								/>
 							</section>
 
 							<section>
-								<label htmlFor="nomeSocial">Nome social:</label>
+								<label htmlFor="dataAgendamento">Para:</label>
 								<Input
-									type="text"
+									type="date"
 									name=""
-									id="nomeSocial"
+									id="dataAgendamento"
 									placeholder="Se houver..."
 								/>
 							</section>
