@@ -37,8 +37,5 @@
 		"url": "git+https://github.com/felipeuenes/sistema-empreenda-mais.git"
 	},
 	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/felipeuenes/sistema-empreenda-mais/issues"
-	}
+	"license": "ISC"
 }

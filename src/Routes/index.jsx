@@ -16,6 +16,7 @@ import { Cursos } from "../pages/cursos";
 import { Mentorias } from "../pages/mentorias/index,";
 import { Indicadores } from "../pages/indicadores";
 import { cadastroMentorias } from "../pages/mentorias/cadastroMentorias";
+import { Contabilidade } from "../pages/contabilidade/index.jsx";
 
 export function AppRoutes() {
 	return (
@@ -35,6 +36,7 @@ export function AppRoutes() {
 				<Route path={"/cursos"} element={<Cursos />}></Route>
 				<Route path={"/mentorias"} element={<Mentorias />}></Route>
 				<Route path={"/indicadores"} element={<Indicadores />}></Route>
+				<Route path={"/contabilidade"} element={<Contabilidade />}></Route>
 				<Route
 					path={"/cadastroMentorias"}
 					element={<cadastroMentorias />}></Route>

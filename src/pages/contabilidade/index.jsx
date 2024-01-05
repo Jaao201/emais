@@ -1,12 +1,9 @@
-/* AGENDAMENTOS */
-
 import { Link, NavLink } from "react-router-dom";
-import "./index.css";
 import { List } from "../../components/listas";
 import TabPane from "antd/es/tabs/TabPane";
 import { Button, Input, Select, Tabs } from "antd";
 
-export function Agendamentos() {
+export function Contabilidade() {
 	return (
 		<div className="container">
 			<form className="form" action="" method="POST">
