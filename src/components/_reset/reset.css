@@ -9,6 +9,27 @@
 	box-sizing: border-box;
 	font-family: PF Beau;
 }
+.container {
+	padding: 1rem;
+}
+.container h1 {
+	font-size: 18pt;
+}
+.abas {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+	text-align: start;
+	gap: 1rem;
+}
+.abas label {
+	display: flex;
+	flex-direction: column;
+}
+#tabs {
+	margin-bottom: 1rem;
+}
 
 ul li {
 	list-style: none;

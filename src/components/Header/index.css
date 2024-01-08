@@ -46,7 +46,7 @@
 .divMenu1 {
 	position: sticky;
 	grid-area: divMenu1;
-	padding: 0.7rem;
+	padding: .7rem 1rem;
 	background-color: #0081a1;
 	display: flex;
 	flex-direction: row;
@@ -63,26 +63,31 @@
 	scale: 1.1;
 }
 
-.divHamburguerMenu {
-	height: 90vh;
-	overflow-y: hidden;
+.divMenu2 {
+	height: 3rem;
 	z-index: 1;
 	background-color: #0095ba;
-	position: absolute;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: start;
-	overflow-x: auto;
-	overflow-y: hidden;
-	scroll-snap-type: x mandatory;
-	font-size: 20;
-}
-
-.divHamburguerMenu a {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	justify-content: start;
+	overflow-x: auto;
+	scrollbar-width: none;
+	scroll-snap-type: x mandatory;
+	font-size: 20;
+	gap: 1rem;
+	padding: 1rem;
+	overflow-y: hidden;
+}
+
+.divMenu2 a {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border: solid 1px #0081a1;
+	box-shadow: 1px 1px #0002;
+	border-radius: 2rem;
 	width: 100%;
 	height: 2rem;
 	gap: 0.8rem;
@@ -91,15 +96,19 @@
 	padding: 0.25rem 0.8rem;
 	margin: 0.4rem 0;
 }
+.divMenu2::-webkit-scrollbar {
+  display: none;
 
-.divHamburguerMenu a.active {
+}
+
+.divMenu2 a.active {
 	background-color: #0081a1;
 	border-color: #ffd000;
 	color: #ffd000;
 }
-.divHamburguerMenu a:hover {
+.divMenu2 a:hover {
 	filter: brightness(1.1);
 }
-.divHamburguerMenu img {
+.divMenu2 img {
 	height: 100%;
 }
